@@ -26,10 +26,13 @@ A Colorado Board of Elections official has requested an election audit of a rece
 ### ELECTION WINNER: Diana DeGette with 272,892 votes - 73.8% of all votes
 
 ## Summary
-The script used in the analysis could be applied to future elections with minor modification. First, the the script must be updated to load the appropriate file. As written, the script can open and read only the provided file.
+The script used in the analysis could be applied to future elections with minor modification. First, the the script must be updated to load the appropriate file. As written, the script can open and read only the provided file or files with the same name. This would require an update to the current script in line 9 (below).
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 file_to_load = os.path.join("Resources", "election_results.csv")
+
+In addition, the name of the output text file should be updated to reflect the scope of the election. This would requre and update to the current script in line 11 (below).
+
+file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 ## Resources
 - Data Source: election_results.csv
