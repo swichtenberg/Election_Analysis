@@ -13,7 +13,7 @@ A Colorado Board of Elections official has requested an election audit of a rece
 8. Determine the winner of the election based on the popular vote.
 
 ## Results
-A total of 369.711 votes were cast in the congressional election.
+A total of 369,711 votes were cast in the congressional election.
 ### Results by County
 - Jefferson County - 38,855 votes (10.5% of total votes)
 - Denver County - 306,055 votes (82.8% of total votes)
