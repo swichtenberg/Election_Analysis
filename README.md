@@ -34,7 +34,7 @@ In addition, the name of the output text file should be updated to reflect the t
 
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-Finally, the current script writes results by county. Depending on the scope of the election the script should be updated to display results based on a different geographical areas (e.g., district, city, state). This can be accomplished by updating lines 88 and 114 in the code. Alternatively, the script could be updated to pull this information from cell B1 in the source file to eliminate hard-coded values.
+Finally, the current script writes results by county. Depending on the scope of the election the script should be updated to display results based on a different geographical areas (e.g., district, city, state). This can be accomplished by updating lines 88 and 114 in the code. Alternatively, the script could be updated to pull this information from cell B1 in the data file to eliminate hard-coded values.
 
 ## Resources
 - Data Source: election_results.csv
