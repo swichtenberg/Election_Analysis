@@ -30,9 +30,11 @@ The script used in the analysis could be applied to future elections with minor 
 
 file_to_load = os.path.join("Resources", "election_results.csv")
 
-In addition, the name of the output text file should be updated to reflect the scope of the election. This would requre changing the current script in line 11 (below).
+In addition, the name of the output text file should be updated to reflect the type/name of the election. This would require changing the current script in line 11 (below).
 
 file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+Finally, the current script writes results by county. Depending on the scope of the election the script should be updated to display results based on a different geographical areas (e.g., district, city, state). This can be accomplished by updating lines 88 and 114 in the code. Alternatively, the script could be updated to pull this information from cell B1 in the source file to eliminate hard-coded values.
 
 ## Resources
 - Data Source: election_results.csv
