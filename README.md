@@ -30,7 +30,7 @@ The script used in the analysis could be applied to future elections with minor 
 
 file_to_load = os.path.join("Resources", "election_results.csv")
 
-In addition, the name of the output text file should be updated to reflect the scope of the election. This would requre and update to the current script in line 11 (below).
+In addition, the name of the output text file should be updated to reflect the scope of the election. This would requre changing the current script in line 11 (below).
 
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
