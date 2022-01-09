@@ -1,4 +1,4 @@
-# Election_Analysis
+# ELECTION ANALYSIS
 
 ## Project Overview
 A Colorado Board of Elections official has requested an election audit of a recent local congressional election. The election audit will include a vote count report that will be used to certify the election. From the data provided, the vote count report will:
@@ -23,8 +23,13 @@ A Colorado Board of Elections official has requested an election audit of a rece
 - Diana DeGette - 272,892 votes (73.8% of total votes)
 - Raymon Anthony Doane - 11,606 votes (3.1% of total votes)
 
-#### ELECTION WINNER: Diana DeGette wwith 272,892 votes and 73.8% of total votes
+#### ELECTION WINNER: Diana DeGette with 272,892 votes and 73.8% of total votes
 
-### Resources
+## Summary
+The script used in the analysis could be applied to future elections with minor modification
+
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+## Resources
 - Data Source: election_results.csv
 - Software: Python 3.7.6, Visual Studio Code
